@@ -1,0 +1,99 @@
+Build a premium minimalist aerospace website for **Orbtrix Space Private Limited** with a white/light futuristic theme and stunning satellite imagery backgrounds.
+
+Brand Style:
+• Clean white/very light grey base with teal-turquoise gradient accents (matching Orbtrix logo colors)
+• Full-width high-resolution satellite or Earth-from-orbit imagery in hero sections and product sections
+• Crisp lines, bold typography, cinematic feeling like SpaceX
+• Use subtle parallax motion on background images
+• Modern aerospace aesthetic: precise, reliable, advanced
+
+Pages (separate pages, not long scroll):
+- Home
+- About
+- Products
+- Autonomous EO Satellite Bus
+- Rigel OS
+- Videra
+- Solutions
+- Contact
+
+Navigation:
+• Sticky white transparent navbar that darkens slightly when scrolling
+• Highlight active link with teal underline
+• Orbtrix full-text logo left, menu links right
+
+Logo:
+• Use attached teal gradient Orbtrix logos (symbol + full logo)
+• Ensure high quality rendering on light background
+
+Page Structure:
+
+HOME:
+• Background: cinematic view of Earth from orbit + a satellite render
+• Headline: “Autonomous Satellites. Operational by Default.”
+• Subheadline: “We build reliable Earth observation satellites powered by Rigel OS — reducing ground operations and mission cost.”
+• CTAs: “Explore Products” + “Contact Us”
+• Slight parallax effect on Earth/satellite
+
+ABOUT:
+• White section with teal accents and infographic style
+• Mission: “We simplify on-orbit operations so teams can focus on insight.”
+• Focus pillars with icons:
+  Autonomy / Mission Safety / Availability
+
+PRODUCTS PAGE:
+• Background strip images for each product
+• Attractive product cards with hover animations
+• 3 products:
+  1️⃣ Autonomous EO Satellite Bus – link to its page
+  2️⃣ Rigel OS – link to its page
+  3️⃣ Videra – link to its page
+
+AUTONOMOUS EO SATELLITE BUS PAGE:
+• Full hero banner with satellite render
+• Tagline: “Smarter satellites that work independently.”
+• Key value blocks:
+  - Highly reliable with continuous availability
+  - Reduced ground ops → lower mission cost
+  - Payload classes: 10U to 50 kg bus options
+• Clean spec section + diagram placeholder
+
+RIGEL OS PAGE:
+• Background: dark space UI elements overlayed on light theme
+• Tagline: “Autonomy for every space mission.”
+• Highlights:
+  - Intelligent tasking and scheduling
+  - Fault-protection and safety-driven logic
+  - Works even without constant ground link
+
+VIDERA PAGE:
+• Hero with a satellite camera perspective
+• Tagline: “Getting satellite imagery is now easier than watching Netflix.”
+• Badge: “Coming Soon”
+• Email subscription box for waitlist
+
+SOLUTIONS PAGE:
+• Icons with short descriptions:
+  - Mission Support
+  - Autonomy Development
+  - Satellite Operations
+• Subtle satellite background texture
+
+CONTACT PAGE:
+• Contact Form:
+  - Name, Organization, Email, Message
+• Email: contact@orbtrix.space
+• Office address:
+  Orbtrix Space Private Limited
+  No. 1190/1, FD 49, 4th Floor,
+  HSR Layout, Sector 3, 22nd Cross Road,
+  Bengaluru — 560102
+• Map embed placeholder
+• Light card style form with teal button
+
+General Requirements:
+• Fully responsive on all devices
+• Fast performance & SEO friendly
+• Smooth scroll + subtle reveal animations
+• Footer:
+  © Orbtrix Space Private Limited. Bengaluru, India.
