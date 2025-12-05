@@ -53,8 +53,9 @@ export default function About() {
                 We simplify on-orbit operations so teams can focus on insight.
               </h1>
               <p className="mt-6 text-lg text-muted-foreground">
-                Orbtrix Space is pioneering the next generation of autonomous satellite systems, 
-                making space operations more efficient, reliable, and accessible.
+                Orbtrix Space is redefining how satellites operate — fully autonomous, highly reliable, and cost-efficient. 
+                With a team of seasoned aerospace engineers at the helm, we are making advanced 
+                space capabilities accessible to organizations of every scale.
               </p>
             </div>
           </SectionReveal>
@@ -110,7 +111,7 @@ export default function About() {
                 <p className="mt-6 text-lg text-muted-foreground">
                   We believe that space should be more accessible and efficient. Our autonomous 
                   satellite platforms reduce the complexity of space operations, allowing mission 
-                  teams to focus on what matters most — gathering insights and creating value.
+                  teams to focus on what matters most, gathering insights and creating value.
                 </p>
                 <p className="mt-4 text-lg text-muted-foreground">
                   From our headquarters in Bengaluru, India, we're developing technology that 
@@ -126,7 +127,7 @@ export default function About() {
                   <div className="text-sm opacity-90 mt-1">CubeSat Configurations</div>
                 </div>
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 text-white">
-                  <div className="text-4xl font-bold" data-testid="text-stat-2">50kg</div>
+                  <div className="text-4xl font-bold" data-testid="text-stat-2">500kg</div>
                   <div className="text-sm opacity-90 mt-1">Max Bus Capacity</div>
                 </div>
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 text-white">

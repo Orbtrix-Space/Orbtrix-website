@@ -1,112 +1,100 @@
 import { Link } from "wouter";
+import { Linkedin, Instagram, Twitter } from "lucide-react";
 import logoSymbol from "@assets/logo_scaled2_1764865971860.png";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-gray-900 border-t border-border" data-testid="footer">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="md:col-span-1">
-            <Link href="/">
-              <span className="flex items-center gap-2 cursor-pointer" data-testid="link-footer-logo">
-                <img
-                  src={logoSymbol}
-                  alt="Orbtrix"
-                  className="h-10 w-auto"
-                  data-testid="img-logo-footer"
-                />
-                <span className="text-lg font-semibold bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent">
-                  Orbtrix
-                </span>
-              </span>
+    <footer className="relative bg-gray-50 dark:bg-gray-900 border-t border-border overflow-hidden" data-testid="footer">
+
+      {/* Background Watermark */}
+      <img
+        src={logoSymbol}
+        alt="Orbtrix Watermark"
+        className="absolute opacity-[0.07] dark:opacity-[0.04] -z-10 w-[450px] bottom-0 right-0 translate-x-1/4 translate-y-1/4 pointer-events-none select-none"
+      />
+
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+          {/* Logo + Socials + Phone */}
+          <div className="ml-4 sm:ml-0">
+            <Link href="/" className="cursor-pointer">
+              <img
+                src={logoSymbol}
+                alt="Orbtrix"
+                className="h-12 w-auto"
+                data-testid="img-logo-footer"
+              />
             </Link>
-            <p className="mt-4 text-sm text-muted-foreground" data-testid="text-footer-tagline">
-              Autonomous satellites. Operational by default.
+
+            {/* Social Icons */}
+            <div className="flex items-center gap-5 mt-6">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Twitter size={20} />
+              </a>
+            </div>
+
+            <p className="mt-4 text-sm text-muted-foreground font-medium">
+              +91 89211 76123
             </p>
           </div>
 
+          {/* Products */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-footer-products-heading">Products</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/products/satellite-bus">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-satellite-bus">
-                    Autonomous EO Satellite Bus
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/rigel-os">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-rigel-os">
-                    Rigel OS
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/videra">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-videra">
-                    Videra
-                  </span>
-                </Link>
-              </li>
+            <h4 className="font-semibold text-foreground mb-4">Products</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/products/satellite-bus" className="hover:text-primary">Autonomous EO Satellite</Link></li>
+              <li><Link href="/products/rigel-os" className="hover:text-primary">Rigel OS</Link></li>
+              <li><Link href="/products/videra" className="hover:text-primary">Videra</Link></li>
             </ul>
           </div>
 
+          {/* Company */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-footer-company-heading">Company</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/about">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-about">
-                    About Us
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/solutions">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-solutions">
-                    Solutions
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <span className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid="link-footer-contact">
-                    Contact
-                  </span>
-                </Link>
-              </li>
+            <h4 className="font-semibold text-foreground mb-4">Company</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/about" className="hover:text-primary">About Us</Link></li>
+              <li><Link href="/solutions" className="hover:text-primary">Solutions</Link></li>
+              <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
+              <li><Link href="/careers" className="hover:text-primary">Careers</Link></li>
+              <li><Link href="/news" className="hover:text-primary">News</Link></li>
             </ul>
           </div>
 
+          {/* Contact */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-footer-contact-heading">Contact</h4>
-            <address className="not-italic text-sm text-muted-foreground space-y-2">
+            <h4 className="font-semibold text-foreground mb-4">Contact</h4>
+            <address className="text-sm text-muted-foreground not-italic space-y-2">
               <p>
-                <a 
-                  href="mailto:contact@orbtrix.space" 
-                  className="hover:text-primary transition-colors" 
-                  data-testid="link-footer-email"
-                >
-                  contact@orbtrix.space
+                <a href="mailto:info@orbtrix.space" className="hover:text-primary">
+                  info@orbtrix.space
                 </a>
               </p>
-              <p data-testid="text-footer-address">
+              <p>
                 No. 1190/1, FD 49, 4th Floor,<br />
                 HSR Layout, Sector 3,<br />
                 22nd Cross Road,<br />
-                Bengaluru — 560102
+                Bengaluru — 560102, India
               </p>
             </address>
           </div>
+
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border">
-          <p className="text-center text-sm text-muted-foreground" data-testid="text-copyright">
+        {/* Bottom Section */}
+        <div className="mt-10 pt-6 border-t border-border text-center">
+          <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Orbtrix Space Private Limited. Bengaluru, India.
           </p>
         </div>
       </div>
+
     </footer>
   );
 }

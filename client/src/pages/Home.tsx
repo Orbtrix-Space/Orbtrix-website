@@ -135,17 +135,17 @@ export default function Home() {
                   Featured Product
                 </span>
                 <h2 className="mt-2 text-3xl md:text-4xl font-bold text-foreground" data-testid="text-featured-product">
-                  Autonomous EO Satellite Bus
+                  Autonomous EO Satellites
                 </h2>
                 <p className="mt-4 text-lg text-muted-foreground" data-testid="text-featured-description">
-                  Smarter satellites that work independently. From 10U CubeSats to 50 kg bus options, 
+                  Smart satellites that work independently. From 10Kg CubeSats to 500 kg bus options, 
                   our platform delivers highly reliable Earth observation with continuous availability.
                 </p>
                 <ul className="mt-6 space-y-3" data-testid="list-featured-benefits">
                   {[
                     "Highly reliable with continuous availability",
                     "Reduced ground ops for lower mission cost",
-                    "Flexible payload configurations",
+                    "Flexible payload configurations and in orbit reconfiguration",
                   ].map((item, index) => (
                     <li key={index} className="flex items-center gap-3 text-foreground" data-testid={`text-benefit-${index}`}>
                       <span className="w-1.5 h-1.5 rounded-full bg-primary" />
