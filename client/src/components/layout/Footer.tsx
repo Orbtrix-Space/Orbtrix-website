@@ -17,8 +17,8 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* Logo + Socials + Phone */}
-          <div className="flex flex-col items-start text-left -ml-2 sm:ml-0">
+          {/* Logo + Socials */}
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="/" className="cursor-pointer">
               <img
                 src={logoSymbol}
@@ -29,7 +29,7 @@ export function Footer() {
             </Link>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-5 mt-6">
+            <div className="flex items-center justify-center md:justify-start gap-5 mt-6">
               <a
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -49,14 +49,10 @@ export function Footer() {
                 <Twitter size={20} />
               </a>
             </div>
-
-            <p className="mt-4 text-sm text-muted-foreground font-medium">
-              +91 89211 76123
-            </p>
           </div>
 
           {/* Products */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-semibold text-foreground mb-4">Products</h4>
             <ul className="space-y-2 text-sm">
               <li>
@@ -81,7 +77,7 @@ export function Footer() {
           </div>
 
           {/* Company */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-semibold text-foreground mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
               <li>
@@ -113,7 +109,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <address className="text-sm text-muted-foreground not-italic space-y-2">
               <p>
@@ -132,6 +128,9 @@ export function Footer() {
                 22nd Cross Road,
                 <br />
                 Bengaluru — 560102, India
+              </p>
+              <p className="pt-1 font-medium">
+                +91 89211 76123
               </p>
             </address>
           </div>
