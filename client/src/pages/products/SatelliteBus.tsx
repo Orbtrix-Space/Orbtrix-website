@@ -21,15 +21,15 @@ const valueProps = [
   {
     icon: Satellite,
     title: "Flexible Configurations",
-    description: "From 10U CubeSats to 50 kg bus options to match your payload requirements.",
+    description: "From 10U CubeSats to 500 kg bus options to match your payload requirements.",
   },
 ];
 
 const specifications = [
-  { label: "Platform Size", value: "10U - 50kg" },
-  { label: "Mission Life", value: "3-5 years" },
+  { label: "Platform Size", value: "10U - 500kg" },
+  { label: "Mission Life", value: "3-10 years" },
   { label: "Orbit Range", value: "LEO (400-800 km)" },
-  { label: "Power Generation", value: "Up to 200W" },
+  { label: "Power Generation", value: "Up to 4KW" },
   { label: "Data Storage", value: "256 GB - 1 TB" },
   { label: "Downlink Rate", value: "Up to 400 Mbps" },
 ];
