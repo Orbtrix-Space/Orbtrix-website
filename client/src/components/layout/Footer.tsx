@@ -17,7 +17,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
           {/* Logo + Socials + Phone */}
-          <div className="ml-3 sm:ml-0">
+          <div className="ml-5 sm:ml-0">
             <Link href="/" className="cursor-pointer">
               <img
                 src={logoSymbol}
